@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+/*body and general*/
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #101010;
@@ -7,84 +10,87 @@ body {
 }
 
 body a:link {
-  color: #1a0;
+  color: #fa0;
 }
-
 body a:visited {
-  color: #ac7;
+  color: #fd1;
 }
-
 body a:hover {
   color: #5ef;
 }
-
 body a:active {
-  color: #fc0;
+  color: #1a0;
 }
 
 header {
   background-color: #000;
   margin: 20px auto;
-  border: solid 3px #fb0;
+  border: solid 3px #5d5;
   border-radius: 20%;
-  max-width: 600px;
+  max-width: 500px;
   padding: 0;
 }
+header h2 {
+  color: #5d5;
+}
 
+/*main/primary text*/
 main {
   margin: 20px auto;
   border: solid 3px #5c4;
   border-radius: 5%;
   overflow: hidden;
-  max-width: 800px;
+  max-width: 600px;
 }
-
 main p {
   padding: 0 20px 0 20px;
 }
 
+/*tags*/
 h1 {
+  font-family: "Merriweather_Sans";
   text-align: center;
   margin: 0;
-  font-size: 48px;
+  font-size: 50px;
 }
-
-header h2 {
-  color: #fb0;
-}
-
 h2 {
   text-align: center;
   margin: 0;
   font-size: 1.8em;
   color: #5c4;
 }
-
 h3 {
+  color: #9e6;
   padding: 0 20px 0 20px;
 }
-
 p {
-  line-height: 1.2em;
-  margin: 0 auto;
+  font-size: 1.05em;
+  line-height: 1.4em;
+  margin: 30px auto;
 }
-
 hr {
   color: #5d5;
   margin: 0;
 }
 
+/*sections*/
 section {
   padding: 20px 0;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 600px;
   background-color: #333;
 }
-
-#contact {
+section ul li{
+  line-height: 1.5em;
+}
+section h4 {
+  margin: 20px;
   text-align: center;
+  color: #fff;
+  font-size: 1.08em;
 }
 
+/*image*/
 .headshot {
   width: 300px;
   height: 300px;
@@ -92,33 +98,53 @@ section {
   border-radius: 50%;
   margin: 10px auto;
   overflow: hidden;
-  border: 2px solid #fb0
+  border: 2px solid #5d5
 }
-
 .headshot img {
   object-fit: cover;
-  object-position: 60% 30%;
-  width: 300px;
-  height: 300px;
+  object-position: -35px -10px;
+  width: 350px;
+  height: 350px;
 }
 
+/*contacts*/
 .contact-list {
   list-style-type: none;
   padding-left: 0;
 }
-
-.black section {
-  background-color: #555;
+#contact {
+  text-align: center;
 }
 
-.gray section {
-  background-color: #222;
+/*div classes*/
+.lighter section {
+  background-color: #333;
+}
+.darker section {
+  background-color: #252525;
 }
 
-div section:nth-of-type(even) {
-  background-color: #040404;
-}
-
+/*divider between header and main*/
 .header-line {
-  height: 10px;
+  border: 3px solid #5d5;
+}
+
+/*div gaps*/
+.gap-small {
+  height: 50px;
+  width: 0;
+}
+
+/*footer*/
+footer {
+  height: 90px;
+  background-color: #141;
+}
+footer p {
+  margin: auto;
+  text-align: center;
+}
+.gap-footer {
+  height: 40px;
+  margin: auto;
 }
