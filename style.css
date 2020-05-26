@@ -116,11 +116,11 @@ section h4 {
   text-align: center;
 }
 
-/*div classes*/
-.lighter section {
+/*background classes*/
+.lighter {
   background-color: #333;
 }
-.darker section {
+.darker {
   background-color: #252525;
 }
 
