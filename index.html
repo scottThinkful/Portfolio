@@ -8,6 +8,23 @@
   </head>
   <body>
     
+    <nav>
+      <ul>
+        <li>
+          <a href="#intro">Intro</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
     <!--Top Header section-->
     <header>
       <h1>Scott Whiteman</h1>
@@ -28,6 +45,15 @@
       
       <section class="darker" id="intro">
         <h4>I'm Scott Whiteman, I'm a Full-Stack Web Developer, though I'm also learning to Illustrate</h4>
+        <p>As a Full-Stack Developer, I can work with the Following: </p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Vanilla DOM</li>
+          <li>JQuery</li>
+          <li>React</li>
+        </ul>
         <h3>Location</h3>
         <p>Currently, I live in Olympia of Washington</p>
         <h3>Stuff I am interested in</h3>
@@ -57,11 +83,54 @@
           <p class="flex-item">Even though I tend to spend more time to myself and my investments, I also have fun working with other people and teams: it's always more lively with other people, so don't be afraid to ping me with a message if you need a developer!</p>
         </div>
       </section>
+      
+      <hr>
+
+      <!--List of Projects Section-->
+      <section id="projects" class="darker">
+        <div class="border-wrap-green"><h2>Projects</h2></div>
+        <h3>Small Projects</h3>
+
+          <ol class="project-group">
+            <li class="project-item">
+                <h4 class="col"><a href="https://scottwhiteman.github.io/FlexAssignment/">Flex and Media</a></h4>
+                <img src="img/missing.png" alt="missing" width="300" class="col">
+                <p class="col">Add Flexbox and Media Query features to a webpage.  CSS</p>
+            </li>
+            <li class="project-item">
+                <h4 class="col"><a href="https://scottwhiteman.github.io/JoeyThinkful/">Joey Thinkful</a></h4>
+                <img src="img/missing.png" alt="missing" width="300" class="col">
+                <p class="col">Apply Flexbox to a navigation bar; have it adapt for mobile or desktop views.  CSS</p>
+            </li>
+          </ol>
+
+        <h3>These projects are not complete</h3>
+
+          <ol class="project-group">
+            <li class="project-item">
+                <h4 class="col">
+                  <a href="https://github.com/scottWhiteman">Connect Four</a><br/>
+                  <span class="incomplete">(incomplete)</span>
+                </h4>
+                <img src="img/missing.png" alt="missing" width="300" class="col">
+                <p class="col">Connect Four against random AI.  Will mostly be JS and CSS</p>
+            </li>
+            <li class="project-item">
+                <h4 class="col">
+                  <a href="https://github.com/scottWhiteman">CSS Windows</a><br/>
+                  <span class="incomplete">(incomplete)</span>
+                </h4>
+                <img src="img/missing.png" alt="missing" width="300" class="col">
+                <p class="col">3D like windows using mostly CSS, with some JS</p>
+            </li>
+          </ol>
+      </section>
+
       <hr>
 
       <!-- Contact Section-->
-      <section id="contact" class="darker">
-        <div class="border-wrap-green"><h2>Contact Me</h2></div>
+      <section id="contact" class="lighter">
+        <div class="border-wrap-yellow"><h2>Contact Me</h2></div>
         <p>If you would like to contact me, you can use either of the links below!</p>
         <ul class="contact-list">
           <li>
@@ -69,6 +138,9 @@
           </li>
           <li>
             <a href="https://github.com/scottWhiteman" target="_blank">GitHub</a>
+          </li>
+          <li>
+            <a href="mailto:scooterjmail@gmail.com">scooterjmail@gmail.com</a>
           </li>
         </ul>
         <p>You can also contact me using the form below!</p>
@@ -85,41 +157,6 @@
           <textarea id="message" maxlength="300" required></textarea><br/>
           <button id="send">Send</button>
         </form>
-      </section>
-      <hr>
-
-      <!--List of Projects Section-->
-      <section id="projects" class="lighter">
-        <div class="border-wrap-yellow"><h2>Projects</h2></div>
-        <h3>Small Projects</h3>
-
-          <ol class="project-group">
-            <li class="project-item">
-                <h4 class="col"><a href="https://scottwhiteman.github.io/FlexAssignment/">Flex and Media</a></h4>
-                <img src="img/missing.png" alt="missing" width="300" class="col">
-                <p class="col">Add Flexbox and Media Query features to a webpage</p>
-            </li>
-            <li class="project-item">
-                <h4 class="col"><a href="https://scottwhiteman.github.io/JoeyThinkful/">Joey Thinkful</a></h4>
-                <img src="img/missing.png" alt="missing" width="300" class="col">
-                <p class="col">Apply Flexbox to a navigation bar; have it adapt for mobile or desktop views</p>
-            </li>
-          </ol>
-
-        <h3>These projects are not complete</h3>
-
-          <ol class="project-group">
-            <li class="project-item">
-                <h4 class="col">Connect Four</h4>
-                <img src="img/missing.png" alt="missing" width="300" class="col">
-                <p class="col">Connect Four against random AI</p>
-            </li>
-            <li class="project-item">
-                <h4 class="col">CSS Windows</h4>
-                <img src="img/missing.png" alt="missing" width="300" class="col">
-                <p class="col">3D like windows using CSS</p>
-            </li>
-          </ol>
       </section>
     </main>
 

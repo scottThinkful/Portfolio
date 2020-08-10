@@ -117,7 +117,7 @@ section h4 {
 }
 #contact form {
   background: #434343;
-  border: 3px solid #5c4;
+  border: 3px solid #eb1;
   border-radius: 20px;
   margin: 0 30px;
   padding-top: 10px;
@@ -137,7 +137,7 @@ section h4 {
   margin-bottom: 20px;
   font-size: 16px;
   padding: 5px 8px;
-  background: #1a0;
+  background: #da1;
 }
 
 #projects {
@@ -214,6 +214,10 @@ section h4 {
   margin: 20px 10px;
 }
 
+.incomplete {
+  font-size: 10px;
+}
+
 .col {
   flex: 1;
   justify-content: center;
@@ -260,4 +264,34 @@ footer p {
 .gap-footer {
   height: 40px;
   margin: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 99%;
+  border: 3px solid #eb1;
+}
+
+nav li {
+  float: left;
+  border-right: 3px solid #eb1;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #eb1;
+  color: black;
 }
