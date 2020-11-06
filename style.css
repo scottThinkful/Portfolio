@@ -23,7 +23,7 @@ body a:active {
 
 header {
   background-color: #000;
-  margin: 20px auto;
+  margin: 100px auto 20px auto;
   border: solid 3px #5d5;
   border-radius: 20%;
   max-width: 500px;
@@ -75,7 +75,7 @@ hr {
 
 /*sections*/
 section {
-  padding: 20px 0;
+  padding: 100px 0 20px 0;
   margin: 0 auto;
   max-width: 1000px;
   background-color: #333;
@@ -274,7 +274,7 @@ nav ul {
   background-color: #333;
   position: fixed;
   top: 0;
-  width: 99%;
+  width: 99.7%;
   border: 3px solid #eb1;
 }
 
