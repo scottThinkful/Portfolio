@@ -257,7 +257,8 @@ section h4 {
 @media all and (min-width: 600px)
 {
   main {
-    margin: auto 40px;
+    width: auto;
+    margin: auto;
   }
   /*about me*/
   .flex-group {
