@@ -62,6 +62,9 @@ h3 {
   color: #9e6;
   padding: 0 20px 0 20px;
 }
+h4 {
+  color: #9e6;
+}
 p {
   font-size: 1.05em;
   line-height: 1.4em;
@@ -152,10 +155,11 @@ section h4 {
   padding-left: 0;
 }
 .border-wrap-green {
+  min-width: 100px;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 60px;
+  margin-right: 60px;
   background: #646464;
   border: 3px solid #5c4;
   border-radius: 10px;
@@ -164,8 +168,8 @@ section h4 {
 .border-wrap-yellow {
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 60px;
+  margin-right: 60px;
   background: #646464;
   border: 3px solid #eb1;
   border-radius: 10px;
@@ -195,6 +199,11 @@ section h4 {
 }
 
 /*flexbox groups*/
+.project-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .project-group {
   display: flex;
   flex-direction: column;
@@ -209,9 +218,22 @@ section h4 {
   padding: 0;
 }
 
-.project-item h4 {
-  font-size: 30px;
+.project-container h4 {
+  font-size: 24px;
   margin: 20px 10px;
+}
+
+.project-container img {
+  margin: auto;
+}
+
+.project-completion-header {
+  font-size: 32px;
+}
+.project-title {
+  display: inline-block;
+  font-size: 24px;
+  margin: 50px auto;
 }
 
 .incomplete {
@@ -226,9 +248,17 @@ section h4 {
   margin-right: 10px
 }
 
+.project-container .tech {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
 /*media query for desktop*/
 @media all and (min-width: 600px)
 {
+  main {
+    margin: auto 40px;
+  }
   /*about me*/
   .flex-group {
     display: flex;
@@ -243,12 +273,23 @@ section h4 {
   .project-item p {
     margin: auto 10px;
   }
-  .project-item {
+  .project-item h4 {
+    margin: 50px auto;
+  }
+  .project-container img {
+    max-width: 30%;
+  }
+  .project-container {
     display: flex;
     flex-direction: row;
   }
-  .project-item h4 {
-    margin: auto;
+  .project-container > p, .project-container > img {
+    margin: auto 20px;
+  }
+
+  .project-container .tech {
+    margin-top: auto;
+    font-size: 14px;
   }
 }
 
@@ -279,6 +320,7 @@ nav ul {
 }
 
 nav li {
+  font-size: 16px;
   float: left;
   border-right: 3px solid #eb1;
 }
@@ -287,7 +329,7 @@ nav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 14px;
   text-decoration: none;
 }
 
