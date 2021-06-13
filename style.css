@@ -1,6 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+
+h3 {
+  font-size: 1.5em; 
+  text-align: center;
+  padding: 20px 0;
 }
 
 .portfolio {
@@ -68,18 +76,19 @@ nav .nav-button:active {
 
 .display-container {
   position: relative;
+  display: flex;
+  flex-direction: column;
   height: 500px;
-  margin: 0 5vw;
-  padding: 20px 0;
+  /* margin: 0 5vw; */
+  /* padding: 20px 0; */
   background-color: #eeeeee;
-  border-radius: 0 0 10px 10px;
   overflow: hidden;
 }
 
 .display-container h3 {
   text-align: center;
-  font-size: 1.5em;
-  height: 10%;
+  /* font-size: 1.5em;
+  height: 10%; */
 }
 
 .project-container {
@@ -144,7 +153,10 @@ nav .nav-button:active {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
   left: 0px;
 }
-
+.slideshow-left-button:hover {
+  background: transparent;
+  cursor: pointer
+}
 .slideshow-left-button:active {
   background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
   color: white;
@@ -154,7 +166,10 @@ nav .nav-button:active {
   background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
   right: 0px;
 }
-
+.slideshow-right-button:hover {
+  background: transparent;
+  cursor: pointer;
+}
 .slideshow-right-button:active {
   background: linear-gradient(to left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
   color: white;
@@ -167,11 +182,17 @@ nav .nav-button:active {
   justify-content: center;
   padding: 10px 0;
 }
-
 .slideshow-circle {
   border-radius: 50%;
   width: 15px;
   height: 15px;
   background-color: rgba(0, 0, 0, 0.2);
   margin: 0 15px;
+}
+
+#contact {
+  background: linear-gradient(170deg, rgba(20, 110, 190, 1), rgba(10, 70, 80, 1));
+  height: 250px;
+  padding: 10px 0;
+  color: white;
 }
