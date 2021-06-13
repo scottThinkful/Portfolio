@@ -7,185 +7,91 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    
-    <nav>
-      <ul>
-        <li>
-          <a href="#intro">Intro</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
-
-    <!--Top Header section-->
-    <header>
-      <h1>Scott Whiteman</h1>
-      <h2>Full-Stack Software Engineer</h2>
-      <div class="headshot">
-        <img src="img/portrait.png" alt="Scott Whiteman Portrait Photo"/>
-      </div>
-    </header>
-
-    <!--Small space between header and main-->
-    <div class="gap-small"></div>
-    <hr class="header-line">
-    <div class="gap-small"></div>
-
-    <!--Start of main body-->
-    <main>
-      <!--Intro Section-->
-      <section class="darker" id="intro">
-        <div class="border-wrap-green"><h2>Intro</h2></div>
-        <h4>I'm Scott Whiteman, I'm a Full-Stack Web Developer, though I'm also learning to Illustrate</h4>
-        <p>As a Full-Stack Developer, I can work with the following: </p>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Vanilla DOM</li>
-          <li>JQuery</li>
-          <li>React</li>
-          <li>Node.js</li>
-          <li>Express</li>
-          <li>SQL</li>
-          <li>PostgreSQL</li>
-        </ul>
-        <h3>Location</h3>
-        <p>Currently, I live in Olympia of Washington</p>
-        <h3>Stuff I am interested in</h3>
-        <ul>
-          <li>Web Development for interactive media</li>
-          <li>Learning more about design to appeal to the eye</li>
-          <li>Also learning Illustration and Animation</li>
-        </ul>
-      </section>
-      <hr>
-
-      <!--About Section-->
-      <section id="about" class="lighter">
-        <div class="border-wrap-yellow"><h2>About Me</h2></div>
-
-        <div class="flex-group">
-          <!--Programming-->
-          <p class="flex-item">When I used to play plenty of video games and use computer applications back then, I wanted to learn more about making them.  I found that I enjoyed programming and analyzing why programs act the way they do.</p>
-
-          <!--Design and Web Development-->
-          <p class="flex-item">I also like understanding designs, what looks appealing to the eye and what helps people see ergonomically.  While I am also interested in learning to illustrate and animate, I find that Web Development lets me bridge both coding and design together while enjoying the process.</p>
-
-          <!-- Outside Interstes-->
-          <p class="flex-item">As I continue learning as a Web Developer, I am still interested in learning to animate.  Also on occasion, I like to play video games.</p>
-
-          <!--Working with a team-->
-          <p class="flex-item">Even though I tend to spend more time to myself and my investments, I also have fun working with other people and teams: it's always more lively with other people, so don't be afraid to ping me with a message if you need a developer!</p>
+    <div class='portfolio'>
+      <div id='about-me'>
+        <div class='about-container'>
+          <div class='image-container'>
+            <img src='./img/missing.png'/>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim vitae, nobis repudiandae non fugit consectetur doloribus minima, illo blanditiis inventore quibusdam iste deserunt nam aliquid odit distinctio fugiat accusantium eligendi!
+          </p>
         </div>
-      </section>
-      
-      <hr>
+      </div>
+      <nav>
+        <button class='nav-button'>
+          <a>Work</a>
+        </button>
+        <button class='nav-button'>
+          <a>Upcoming</a>
+        </button>
+        <button class='nav-button'>
+          <a>Recent Projects</a>
+        </button>
+        <button class='nav-button'>
+          <a>Small Projects</a>
+        </button>
+      </nav>
+      <div class='display-container'>
+        <button class='slideshow-left-button'>
+          &leftarrow;
+        </button>
+        <h3>Project Name</h3>
+        <div class='project-slideshow'>
 
-      <!--List of Projects Section-->
-      <section id="projects" class="darker">
-        <div class="border-wrap-green"><h2>Projects</h2></div>
-        <h3 class="project-completion-header">Completed Projects</h3>
+          
 
-          <ol class="project-group">
-            <li class="project-item">
-              <h4 class="project-title"><a href="https://github.com/Nvlt/endless_encounters_client" target="_blank">Endless Encounters</a></h4>
-              <div class="project-container">
-                <a href="https://github.com/Nvlt/endless_encounters_client">
-                  <img src="img/endless.jpg" alt="missing" width="300" class="col">
-                </a>
-                <p class="col">Text turn based RPG game where player is pitted against an endless set of enemies.  Progress is saved to database</p>
-                <p class="col tech">JavaScript, CSS, HTML, React.js, Node.js, Express, PostgreSQL</p>
-              </div>
-              <hr/>
-            </li>
-            <li class="project-item">
-              <h4 class="project-title"><a href="https://github.com/scottWhiteman/Color-Game-Capstone" target="_blank">Color Game</a></h4>
-              <div class="project-container">
-                <a href="https://github.com/scottWhiteman/Color-Game-Capstone">
-                  <img src="img/colorgame.jpg" alt="missing" width="300" class="col">
-                </a>
-                <p class="col">Color game where player must choose colors matching given condition.  Gain score until incorrect answer is picked</p>
-                <p class="col tech">JavaScript, CSS, HTML, React.js, Node.js, Express, PostgreSQL</p>
-              </div>
-              <hr/>
-            </li>
-            
-            <li class="project-item">
-              <h4 class="project-title"><a href="https://github.com/scottWhiteman/spaced-repetition" target="_blank">Spaced Repetition</a></h4>
-              <div class="project-container">
-                <a href="https://github.com/scottWhiteman/spaced-repetition">
-                  <img src="img/spacedrep.jpg" alt="missing" width="300" class="col">
-                </a>
-                <p class="col">Language learning app that flash cards language words, utilizing spaced repetition method</p>
-                <p class="col tech">JavaScript, CSS, HTML, React.js, Node.js, Express, PostgreSQL</p>
-              </div>
-              <hr/>
-            </li>
-            
-            <li class="project-item">
-              <h4 class="project-title"><a href="https://github.com/scottWhiteman/scott-bookmarks-app" target="_blank">Website Bookmarks</a></h4>
-              <div class="project-container">
-                <a href="https://github.com/scottWhiteman/scott-bookmarks-app">
-                  <img src="img/bookmarks.jpg" alt="missing" width="300" class="col">
-                </a>
-                <p class="col">Simple bookmark saving app with rating system</p>
-                <p class="col tech">JavaScript, CSS, HTML, Node.js, Express</p>
-              </div>
-            </li>
-          </ol>
-      </section>
+          <div class='project-slideshow-container'>
+            <ul class='project-slideshow-track'>
+              <li class='project-slide'>
+                <div class='project-container'>
+                  <div class='image-container'>
+                    <img src='./img/spacedrep.jpg'/>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem amet distinctio est minima. Veniam veritatis ad necessitatibus nemo, ratione, ipsum provident placeat, recusandae saepe sed mollitia pariatur ullam illum perferendis!
+                  </p>
+                </div>
+              </li>
+              <li class='project-slide'>
+                <div class='project-container'>
+                  <div class='image-container'>
+                    <img src='./img/spacedrep.jpg'/>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem amet distinctio est minima. Veniam veritatis ad necessitatibus nemo, ratione, ipsum provident placeat, recusandae saepe sed mollitia pariatur ullam illum perferendis!
+                  </p>
+                </div>
+              </li>
+              <li class='project-slide'>
+                <div class='project-container'>
+                  <div class='image-container'>
+                    <img src='./img/spacedrep.jpg'/>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem amet distinctio est minima. Veniam veritatis ad necessitatibus nemo, ratione, ipsum provident placeat, recusandae saepe sed mollitia pariatur ullam illum perferendis!
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+          
 
-      <hr>
+          <div class='slideshow-nav'>
+            <button class='slideshow-circle'></button>
+            <button class='slideshow-circle'></button>
+            <button class='slideshow-circle'></button>
+          </div>
+        </div>
+        <button class='slideshow-right-button'>
+          &rightarrow;
+        </button>
+      </div>
+      <footer>
 
-      <!-- Contact Section-->
-      <section id="contact" class="lighter">
-        <div class="border-wrap-yellow"><h2>Contact Me</h2></div>
-        <p>If you would like to contact me, you can use either of the links below!</p>
-        <ul class="contact-list">
-          <li>
-            <a href="https://www.linkedin.com/in/scott-whiteman-as-software-development/" target="_blank">Linkedln</a>
-          </li>
-          <li>
-            <a href="https://github.com/scottWhiteman" target="_blank">GitHub</a>
-          </li>
-          <li>
-            <a href="mailto:scooterjmail@gmail.com">scooterjmail@gmail.com</a>
-          </li>
-        </ul>
-        <p>You can also contact me using the form below!</p>
-        <form>
-          <label for="first">Name:</label><br/>
-          <input type="text" id="first" maxlength="20" required><br/>
-          <label for="email">Email:</label><br/>
-          <input type="email" id="email" required><br/>
-          <label for="number">Phone-Number:</label><br/>
-          <input type="text" id="number" required><br/>
-          <label>Company (if applicable)</label><br/>
-          <input type="text" id="company"><br/>
-          <label for="message">Your message:</label><br/>
-          <textarea id="message" maxlength="300" required></textarea><br/>
-          <button id="send">Send</button>
-        </form>
-      </section>
-    </main>
-
-    <!--Spacing between main and footer tags-->
-    <div class="gap-small"></div>
-
-    <!--Footer-->
-    <footer>
-      <div class="gap-footer"></div>
-      <p>&copy; Scott Whiteman</p>
-    </footer>
-    <script src="script.js"></script>
+      </footer>
+    </div>
+    <script src='script.js'></script>
   </body>
 </html>
