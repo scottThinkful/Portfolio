@@ -1,2 +1,3 @@
-Portfolio
-scottwhiteman.github.io/portfolio/
+# Portfolio
+
+[Portfolio Site](scottwhiteman.github.io/portfolio/)
