@@ -4,7 +4,7 @@ const navTabs = {
       <p class='text-pointer'>Simple Macros</p>
       <div class='project-container'>
         <div class='image-container slide-image-container'>
-          <img src='./img/missing.png'/>
+          <div>Image Coming Soon</div>
         </div>
         <div class='project-description'>
           <p>
@@ -22,7 +22,11 @@ const navTabs = {
               Android
             </li>
           </ul>
-          <div class='button-wrapper'><button class=''><a href="https://github.com/scottWhiteman/spaced-repetition" target="_blank">Playstore</a></button></div>
+          <div class='button-wrapper'>
+            <a href="https://play.google.com/store/apps/details?id=com.simply.macros&hl=en_US&gl=US" target="_blank">
+              <button class='app-button'>Playstore</button>
+            </a>
+          </div>
         </div>
       </div>
     </li>
@@ -30,7 +34,7 @@ const navTabs = {
       <p class='text-pointer'>Simple Macros Webpage</p>
       <div class='project-container'>
         <div class='image-container slide-image-container'>
-          <img src='./img/missing.png'/>
+          <img src='./img/simplifyMacrosPage.png'/>
         </div>
         <div class='project-description'>
           <p>
@@ -54,7 +58,11 @@ const navTabs = {
               HTML
             </li>
           </ul>
-          <div class='button-wrapper'><button class=''><a href="https://github.com/scottWhiteman/spaced-repetition" target="_blank">Playstore</a></button></div>
+          <div class='button-wrapper'>
+            <a href="https://github.com/scottWhiteman/spaced-repetition" target="_blank">
+              <button class='app-button'>Playstore</button>
+            </a>
+          </div>
         </div>
       </div>
     </li>
@@ -64,7 +72,7 @@ const navTabs = {
       <p class='text-pointer'>Shopping Cart</p>
       <div class='project-container'>
         <div class='image-container slide-image-container'>
-          <img src='./img/missing.png'/>
+          <div>Image Coming Soon</div>
         </div>
         <div class='project-description'>
           <p>
@@ -91,7 +99,9 @@ const navTabs = {
               React Hooks
             </li>
           </ul>
-          <div class='button-wrapper'><button class='no-git-button'>Not yet available</button></div>
+          <div class='button-wrapper'>
+            <button class='no-git-button'>Not yet available</button>
+          </div>
         </div>
       </div>
     </li>
@@ -130,7 +140,11 @@ const navTabs = {
               PostgreSQL
             </li>
           </ul>
-          <div class='button-wrapper'><button class='git-button'><a href="https://github.com/scottWhiteman/spaced-repetition" target="_blank">Checkout Git</a></button></div>
+          <div class='button-wrapper'>
+            <a href="https://github.com/scottWhiteman/spaced-repetition" target="_blank">
+              <button class='git-button'>Checkout Git</button>
+            </a>
+          </div>
         </div>
       </div>
     </li>
@@ -168,7 +182,11 @@ const navTabs = {
               PostgreSQL
             </li>
           </ul>
-          <div class='button-wrapper'><button class='git-button'><a href="https://github.com/scottWhiteman/spaced-repetition" target="_blank">Checkout Git</a></button></div>
+          <div class='button-wrapper'>
+            <a href="https://github.com/scottWhiteman/Color-Game-Capstone" target="_blank">
+              <button class='git-button'>Checkout Git</button>
+            </a>
+          </div>
         </div>
       </div>
     </li>
@@ -209,7 +227,11 @@ const navTabs = {
               PostgreSQL
             </li>
           </ul>
-          <div class='button-wrapper'><button class='git-button'><a href="https://github.com/scottWhiteman/spaced-repetition" target="_blank">Checkout Git</a></button></div>
+          <div class='button-wrapper'>
+            <a href="https://github.com/Nvlt/endless_encounters_client" target="_blank">
+              <button class='git-button'>Checkout Git</button>
+            </a>
+          </div>
         </div>
       </div>
     </li>
@@ -241,7 +263,11 @@ const navTabs = {
               Express
             </li>
           </ul>
-          <div class='button-wrapper'><button class='git-button'><a href="https://github.com/scottWhiteman/spaced-repetition" target="_blank">Checkout Git</a></button></div>
+          <div class='button-wrapper'>
+            <a href="https://github.com/scottWhiteman/scott-bookmarks-app" target="_blank">
+              <button class='git-button'>Checkout Git</button>
+            </a>
+          </div>
         </div>
       </div>
     </li>
