@@ -1,3 +1,3 @@
 # Portfolio
 
-[Portfolio Site](scottwhiteman.github.io/portfolio/)
+[Portfolio Site](https://scottwhiteman.github.io/portfolio/)
