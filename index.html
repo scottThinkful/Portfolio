@@ -5,31 +5,63 @@
     <meta name="viewport" content="width=device-width">
     <title>Portfolio of Scott Whiteman</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src='./script.js' type='module'></script>
   </head>
   <body>
     <div class='portfolio'>
       <div id='about-me'>
         <div class='about-container'>
-          <div class='image-container'>
-            <img src='./img/missing.png'/>
+          <div class='portfolio-image-container image-container'>
+            <img id='portrait' src='./img/portrait.png'/>
           </div>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim vitae, nobis repudiandae non fugit consectetur doloribus minima, illo blanditiis inventore quibusdam iste deserunt nam aliquid odit distinctio fugiat accusantium eligendi!
-          </p>
+          <!-- <div class='portfolio-border'></div> -->
+          <div class='portfolio-description'>
+            <h2>I'm Scott Whiteman,</h2>
+            <h2>I am a Full-Stack Web Developer</h2>
+            <div class='skills-flex'>
+              <div class='front-end skills-container'>
+                <p>Front End skills and tech:</p>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>JQuery</li>
+                  <li>React</li>
+                  <li>Redux</li>
+                  <li>Flutter</li>
+                </ul>
+              </div>
+
+              <div class='back-end skills-container'>
+                <p>Back End skills and tech: </p>
+                <ul>
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>SQL</li>
+                  <li>PostgreSQL</li>
+                </ul>
+              </div>
+              <div class="other-skills skills-container">
+                <p>Other technologies: </p>
+                <ul>
+                  <li>TypeScript</li>
+                  <li>Dart</li>
+                  <li>Java</li>
+                  <li>Python</li>
+                </ul>
+              </div>
+          </div>
         </div>
       </div>
-      <nav>
+      <nav class='navigator'>
         <button class='nav-button'>
           <a>Work</a>
         </button>
         <button class='nav-button'>
-          <a>Upcoming</a>
+          <a>Current Projects</a>
         </button>
         <button class='nav-button'>
-          <a>Recent Projects</a>
-        </button>
-        <button class='nav-button'>
-          <a>Small Projects</a>
+          <a>Older Projects</a>
         </button>
       </nav>
       <div class='display-container'>
@@ -38,12 +70,9 @@
         </button>
         <h3>Project Name</h3>
         <div class='project-slideshow'>
-
-          
-
           <div class='project-slideshow-container'>
             <ul class='project-slideshow-track'>
-              <li class='project-slide'>
+              <!-- <li class='project-slide current-slide'>
                 <div class='project-container'>
                   <div class='image-container'>
                     <img src='./img/spacedrep.jpg'/>
@@ -56,7 +85,7 @@
               <li class='project-slide'>
                 <div class='project-container'>
                   <div class='image-container'>
-                    <img src='./img/spacedrep.jpg'/>
+                    <img src='./img/colorgame.jpg'/>
                   </div>
                   <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem amet distinctio est minima. Veniam veritatis ad necessitatibus nemo, ratione, ipsum provident placeat, recusandae saepe sed mollitia pariatur ullam illum perferendis!
@@ -66,20 +95,18 @@
               <li class='project-slide'>
                 <div class='project-container'>
                   <div class='image-container'>
-                    <img src='./img/spacedrep.jpg'/>
+                    <img src='./img/endless.jpg'/>
                   </div>
                   <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem amet distinctio est minima. Veniam veritatis ad necessitatibus nemo, ratione, ipsum provident placeat, recusandae saepe sed mollitia pariatur ullam illum perferendis!
                   </p>
                 </div>
-              </li>
+              </li> -->
             </ul>
           </div>
-          
-          
 
           <div class='slideshow-nav'>
-            <button class='slideshow-circle'></button>
+            <button class='slideshow-circle selected-circle'></button>
             <button class='slideshow-circle'></button>
             <button class='slideshow-circle'></button>
           </div>
@@ -90,12 +117,21 @@
       </div>
       <div id='contact'>
         <h3>Contact Me</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ducimus nobis, ullam ratione unde quod ex quam aut necessitatibus aperiam ipsam dolores amet? Facilis ducimus dicta dignissimos fuga veritatis officia?</p>
+        <p>If you would like to contact me, you can use one of the links below</p>
+        <ul class="contact-list">
+          <li>
+            <a href="https://www.linkedin.com/in/scott-whiteman-as-software-development/" target="_blank">Linkedln</a>
+          </li>
+          <li>
+            <a href="mailto:scooterjmail@gmail.com">Gmail</a>
+          </li>
+        </ul>
       </div>
       <footer>
-
+        <p>
+          Copyright &copy; 2021 Scott Whiteman
+        </p>
       </footer>
     </div>
-    <script src='script.js'></script>
   </body>
 </html>
